@@ -291,7 +291,7 @@ def IND():
 			for psx in user:
 				ids = code+psx
 				if pcs in ['1','01']:
-					passlist = [psx,ids,'786786,'59039200','57273200','57575751']
+					passlist = [psx,ids,'786786','59039200','57273200','57575751']
 					
 				if mthd in ['1','01']:
 					FKING.submit(fking1,ids,passlist)
